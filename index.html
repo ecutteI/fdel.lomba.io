@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomba</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --grey_one  : #45434F;
+            --black_one : #3A3742;
+            --black_two : #312F38;
+            --red       : #D01D1D;
+            --white     : #EEEDED;
+        }
+
+        body {
+            background-color: var(--black_two);
+            font-family: 'Oswald', sans-serif;
+        }
+
+        div.navbar > img {
+            margin-right: 30px;
+            width: 50px;
+            height:50px;
+        }
+
+        div.navbar > div.nav-right > a {
+            justify-content: space-between;
+            color: var(--grey_one);
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color :var(--white);
+            position: fixed; 
+            top: 3px; 
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            left:10%;
+            align-items: center;
+            border-radius: 5px;
+            }   
+
+        div.top {
+            color: var(--red);
+            margin: 30px; 
+        }
+
+        div.mid {
+            color: var(--white);
+        }
+
+        div.mid-left {
+            text-align: left;
+        }
+
+        div.mid-right {
+            text-align: right;
+        }
+
+        footer {
+            background-color: var(--black_one);
+            
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer > div.footer-left > img {
+            width: 70px;
+        }
+        footer > div.footer-mid {
+            color: var(--white);
+        }
+
+        footer > div.footer-right {
+            color: var(--white);
+        }
+
+        footer.footer-bottom {
+            color: var(--white);
+            display: flex;
+            justify-content: center ;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+            <img src="img/IGS.png" alt="logo">
+            <div class="nav-right">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+    </div>
+    <div class="top">
+        <h1>Bulan Bahasa di Ignatius Global School</h1>
+    </div>
+    <div class="mid">
+        <h1 class="header-mid">APA ITU BULAN BAHASA?</h1>
+        <div class="mid-left">
+
+            <p>Dikutip dari situs Kemendikbud, Bulan Bahasa dan Sastra Indonesia adalah kegiatan setiap Oktober yang berkaitan dengan peringatan Hari Sumpah Pemuda</p>
+        </div>
+        <div class="mid_right">
+            <img src="img/SumpahPemuda.jpg" alt="">
+        </div>
+    </div>
+
+
+    <footer class="footer-top">
+        <div class="footer-left">
+            <img src="img/IGS.png" alt="">
+            <div class="social">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAnpJREFUSEutVu1VwzAMPG0SJqHZpEzSZBK6CWWShknMk+MPSZaSPh75A/WHzpLuziYCkGA/f3RYFgz03QRCKvF1TP5VvjKh/wA4OcQwPQKoxER8fe48EYOZmQsI76JkPwDuMmOvnpzMnrEDJgEOznIDYRHAG4C3V1oiSv3KctmV3L9bAhbTrZmARy1v1AkFfNhNmXb//4YCLPbeAXyoNBz0kVyaaqYMhaU9kAfMnVsSsDZiOhm9nrHfiQbsTHML1uNSn9dYE9DJuJNUHoE2ID0AMOlWNTPo2DGTbgJDH6JSW1Ni8HkEHohzahs1hpWTnzjQgUMDiVU1ATSV7DkQk6jIqVnjBtBcZHYVoQxwNZBjr75llo5OyLssuaSBTAAuAN5B+EYCy0xJPsqRNz6DyaqGVurSrQ2J3gabHGxwb6X3BaAtwgBcgvzFMlUtv0qZotvJALe9Gfjc502PywYmxacpwwbCHYlWIHE1GGAnV74kJLnKJRE5h1CkanjaQSUjGYS9NzPZ6MW9nRx1mjxUxk1gTyRwVhVlAZJyHRHliNWDpm0LbBpP1qtg5gcB9yonmU1uCeEa38ejBuV1aW2KJSQyxkLAum8YGmfXjlei0W4Ddu6HzGiRWSQRT3I+8PF93I7GbsPg8mNiMcEym0G4IA1reHxGokdvU3TtqTdXKyR78hchTbW8xZ93UN0GebiW7YmSWtO0SvZdR3ZpipF/8qFmENgy3Zf6/rLsb+zRMvu+UvKImcqtmPntgTeczDlL5NV1L2fOWr0G7/r8vGl8dy4Drzx1fTQnx6dCqDrGpe1OZiIYretWCtd4Bfj/1pRTqVJHtPBRT1afUPsXzlsBN66YzL4AAAAASUVORK5CYII="/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwRJREFUSEudV1uSGjEMbJ0k7EmWOcgmkIsETgKbi0Dym9/8MzmJUm3LY1m2yVamamsHY6v1aLWMwD0CQP2Cvc/WB1s/vESb25MAnqL8pwuDYw1w8sA2VScmp3TbGg4N1rs8CKQzOw9qB4B/7dPvv3+kZDniOdg3AHsB9s9L0JhYzbMrgLM3Hd8HwLIX6EVrhMXY6nkw8XfvWLMKdFHBGlnbpzqfelha7+b1fcT2QMvyMZdDcIGmAFYFXloG51hj01wAHAAQdImV6EjXh/1mxfsJgLaYAab9GDuoTbXgAU0kopcpxbM2GxDzDYrvtk4gluam2U6NGiNWm4YIIDm9nXk69cUiWZHr956cFHy2dx77CsVNgEcPDN9OCYBGWV+2xFLq6iImy09dS+WIEoutTDzyG8CvyhdZAGX5tnB8jVmPWwS2DRVUcILij62/Ghg/ngA5B+GlPdolXypw6K29JmC5A7q4LJdM0HhjwMCzwzntrO3dKSBrPAGu6FvEhdFWY4tWrgI9Nq1Vz14gOEBTKZjy8owjDvUy4C5iazE5AspahkcgUKrbDWptWB1qgd0s8EZmwNthAQZikoAPmvs29+wMeESu6rVFXNupEKsTgtLkJrEUnmmqvdNOMi1dxupQY08ukiemu3BjRL5Btoi1PTPgTUIYzcV6+grFDzv6CZCTQDkHarQ11UX323YKLLHIfKo34KJYm4CEVjxpYnOndAV4k+Ckh2HM7TQpl6yAmrYOJZOpfRWA+++AvANKyQzakRbU1kNZ+96ggOyTgDilmbTQ4HLYoKfy2LBxQyKMRatTYTDVZ+kG+ORCOLkUZGIJyInBWKxtwzfWkgf4n2k8C7Tt3Wf3mSxrPFtmMUvwMgqgzWI2urM5Wi53Vr9U+00CLEO+Mfi1u/qkeUyJ3YZD3hzaKTDDz11v7F/A/N6PyZ4eNuWHX/hFY2+92j6/kvTX2wHbnYDM8cclTYIz/MkTnLY97f5GuVKqZ8Rx4t7fON3ICSYGgyzDdFlrbXQ/TyKTntdpHsVfteVWNDZDDr4AAAAASUVORK5CYII="/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAiJJREFUSEulV+t5wjAMPE3SdJKGTWCShElgE9gEmMT9ZMuJbMuPtP5DwI+TTqdzIPAgAM4//W8Y5/ifKr8LcB1dz/w9xnQnfzOAO0EU0wSCO0RaAJZhnGeXwKCgz4SsEO4T4H69R8rRDyGSbIhrbHNNif3dXBp7nIWRLziaFN+TXZgN6i3z8fMDgJ+fOQxl5ZoccAMwa4BdOP1cmD5jPQNfJAivZqVqD/VIQQP8CFyHCT7lTnCX2NOaaqbxdRDlkOEQ8O0C9UmNmd7HYeAROvY1p1hvnfEZob7NQcDdEWYWna9ls/l17/pjuc73POMFwDoAvDrgCoAD5T3TpoJm9n7SBiaAD81GETUHd1XqvQE0A061WtUNVxCu7K1a1WXGdgYCnMQ3E7CEEjQ52/bqGi9FxgawXyNRq17jbLP+NxtRMiYoA6GF4OpUSyISHNc4jgWgdXe3pp9Hfeh2ojPgRNVFXTV/kS4lLoNe8dwsIJPqpJ32uIu79im9rmx12N1MVQcDqY3M1PMGLhK0u8M0kGCZxgZtFCNG1Yidoujza5GBzX7sGcsAUXxDnaIl58AMynQn4HaWTQHmcfhrkYB3mrE+IzxzvX9CdNuLQMZEuSnetzITb6GP8/6chp9kXOinf2GIUZmXv/IXdZCKd/j4bWFHYc3SRCMaWdSMzLZV07JzRscEWwAcQDRb1PRy/eeiXvm+Jpq+bb3N1Ta0DwqtMvZ35hfxr98ky1Ru/gAAAABJRU5ErkJggg=="/>
+            </div>
+        </div>
+        <div class="footer-mid">
+            <h2 class="about">About Us</h2>
+            <li>Profile</li>
+            <li>Sejarah Kami</li>
+            <li>Berita Terbaru</li>
+        </div>
+        <div class="footer-right">
+            <h2>Contanct Info</h2>
+            <li>(+62)81 414 9980</li>
+            <li>99 St. Jomblo Park Pekanbaru 28292, Indonesia</li>
+            <li>contoh@ignatiusglobal.sch.id</li>
+        </div>
+    </footer>
+    <footer class="footer-bottom">
+        <p style="text-align: center;">Copyright &copy; <span id="pageYear"></span></p>
+    </footer>
+</body>
+</html>
